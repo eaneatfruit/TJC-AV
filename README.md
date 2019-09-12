@@ -1,5 +1,5 @@
 # TJC-AV
-Toronto's AV front and backend. Developed many years ago, meant for internal use only.
+Toronto's AV front and backend. Developed many years ago, meant for internal use only. This was made before my background in security.
 
 **Brief Installation Steps**
 - Install Windows IIS Service
