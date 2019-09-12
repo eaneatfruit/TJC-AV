@@ -1,0 +1,43 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file TJC_Sabbath.csproj at December 18 2016, 01:13:16.
+
+=========================ERRORS===================
+
+=========================WARNINGS=================
+File E:\TJC_Sabbath\..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalEnterpriseLib.dll not found.
+File E:\TJC_Sabbath\..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalReportPluginLib.dll not found.
+File E:\TJC_Sabbath\..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalInfoStoreLib.dll not found.
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Web.Config: added a reference for assembly CrystalDecisions.Web.
+Web.Config: added a reference for assembly CrystalDecisions.Shared.
+Web.Config: added a reference for assembly CrystalDecisions.ReportSource.
+Removed attribute AutoEventWireup from file admin.aspx.
+Removed attribute Codebehind from file admin.aspx.
+Access level of 'Page_Load' changed to 'protected' in file admin.aspx.cs (Line 21).
+Access level of 'ddtopic_SelectedIndexChanged' changed to 'protected' in file admin.aspx.cs (Line 206).
+Access level of 'btnupdate_Click' changed to 'protected' in file admin.aspx.cs (Line 217).
+Access level of 'btnreset_Click' changed to 'protected' in file admin.aspx.cs (Line 259).
+Access level of 'btnUpdate1_Click' changed to 'protected' in file admin.aspx.cs (Line 272).
+Access level of 'btnadd1_Click' changed to 'protected' in file admin.aspx.cs (Line 316).
+Access level of 'btreset1_Click' changed to 'protected' in file admin.aspx.cs (Line 321).
+Access level of 'dgcontent_SelectedIndexChanged' changed to 'protected' in file admin.aspx.cs (Line 334).
+Access level of 'ddbible_SelectedIndexChanged' changed to 'protected' in file admin.aspx.cs (Line 339).
+Access level of 'txtchapter_TextChanged' changed to 'protected' in file admin.aspx.cs (Line 344).
+Removed attribute AutoEventWireup from file default.aspx.
+Removed attribute Codebehind from file default.aspx.
+Access level of 'Page_Load' changed to 'protected' in file default.aspx.cs (Line 25).
+Access level of 'WebTimer1_Timer' changed to 'protected' in file default.aspx.cs (Line 59).
+Removed attribute Codebehind from file Global.asax.
+Added folder App_Code.
+Moved file Global.asax.cs to the App_Code\ directory.
+Moved file AssemblyInfo.cs to the App_Code\ directory.
+Removed file Bin\TJC_Sabbath.dll.
+Removed file Bin\TJC_Sabbath.pdb.
+Removed file TJC_Sabbath.csproj.
+Removed file TJC_Sabbath.csproj.webinfo.
+Project TJC_Sabbath.csproj has been converted successfully at December 18 2016, 01:13:31.
